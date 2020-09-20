@@ -1,0 +1,22 @@
+<view class="reading-everday">
+    <text class="day">{{day}}</text>
+    <text class="momo">天</text>
+    <text class="test">已坚持阅读</text>
+    <view class="">
+        <text class="minute">{{minute}}</text>
+        <text class="momo1">分</text>
+        <text class="test2">今日已阅读</text>
+    </view>
+</view>
+<!-- <image src=""></image> -->
+<!-- https://www.zcool.com.cn/work/ZMjY0MzU5ODQ=.html -->
+<!-- https://blog.csdn.net/JackJia2015/article/details/86300825 -->
+<view class="bookcase">
+    <view class="bookbox" wx:for="{{BookList}}" wx:key="name" wx:for-item="item">
+        <image class="bookpic" src="{{item.url}}" bindtap="navigateToBook" data-id="{{item._id}}"></image>
+        <text class="bookname">{{item.name}}</text>
+    </view>
+</view>
+<view class="addbookbox" bindtap="navigateToAddBook">
+    <text>添加图书</text>
+</view>

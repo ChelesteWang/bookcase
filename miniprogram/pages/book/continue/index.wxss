@@ -1,0 +1,30 @@
+/* pages/book/continue/index.wxss */
+.title{
+  display:flex;              
+ justify-content: center;
+  margin-top: 50rpx;
+}
+.name{
+  vertical-align: middle;
+  left: 100rpx;
+  font-size: 50rpx;
+  width: 1rpx;
+}
+.van-cell-group{
+  margin-top: 20rpx;
+}
+image{
+  margin-left: 200rpx;
+  border-radius: 10rpx;
+  box-shadow: 0 0 3px;
+  width: 230rpx;
+  height: 360rpx;
+}
+#v1{
+  padding-top: 20rpx;
+  text-align: center;
+}
+#bt1{
+  position: relative;
+  top: 50rpx;
+}

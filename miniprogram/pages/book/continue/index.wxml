@@ -1,0 +1,15 @@
+<!--pages/book/continue/index.wxml-->
+<view class="title">
+<view class="name">{{BookName}}</view>
+<image sre="{{image}}"></image>
+</view>
+
+<van-cell-group>
+  <van-cell title="已读页数" value="{{ReadPage}}" id="c1"/>
+  <van-cell title="总页数" value="{{PageCount}}" />
+  <van-cell title="每日读取页数" value="{{dayread}} "/>
+  <van-cell title="预计读完时间" value="{{day}} "/>
+</van-cell-group>
+<view id="v1">当前阅读进度</view>
+<van-progress percentage="{{Progress*100}}" stroke-width="40" />
+<van-button type="primary" block  color="linear-gradient(to right, #4bb0ff, #6149f6)" round="true" size="large" id="bt1">继续阅读</van-button>

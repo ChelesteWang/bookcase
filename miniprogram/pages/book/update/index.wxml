@@ -1,0 +1,15 @@
+<view class="title">修改图书</view>
+<!-- <view>表单</view> -->
+<van-cell-group class="formList">
+	<van-field value="{{ value }}" placeholder="书名"  bind:change="getName" />
+	<van-field value="{{ value }}" placeholder="作者" bind:change="getAuthor" />
+	<van-field value="{{ value }}" placeholder="总页数" bind:change="getPage" />
+	<van-field value="{{ value }}" placeholder="每日计划" bind:change="getPlan" />
+</van-cell-group>
+<view class="pictureCard" bindtap="chooseImage">
+	<image wx:if="{{images}}" src="{{images}}"></image>
+	<image wx:if="{{!images}}" src="cloud://bookcase-srxkw.626f-bookcase-srxkw-1302883065/BOOK.png"></image>
+</view>
+<van-button class="upBtn" type="primary" block icon="plus" color="linear-gradient(to right, #4bb0ff, #6149f6)" bindtap="chooseImage" id="up" round="true" size="large">上传封面</van-button>
+<van-button class="upBtn" type="primary" block color="linear-gradient(to right, #4bb0ff, #6149f6)" bindtap="add" id="add" round="true" size="large">修改图书</van-button>
+<!-- <van-button class="upBtn" type="primary" block icon="plus" color="linear-gradient(to right, #4bb0ff, #6149f6)">上传封面</van-button> -->

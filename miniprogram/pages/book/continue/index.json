@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-progress": "@vant/weapp/progress/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-cell-group": "@vant/weapp/cell-group/index"
+  }
+}

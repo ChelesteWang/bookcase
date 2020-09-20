@@ -1,0 +1,17 @@
+<view class="title">图书信息</view>
+<view class="cellList">
+	<van-cell-group>
+		<van-cell  title-width="100rpx" title="书名" value="{{book.name}}" size="large" />
+		<van-cell  title-width="100rpx" title="作者" value="{{book.author}}" size="large" />
+		<van-cell  title-width="120rpx" title="总页数" value="{{book.pagecount}}" size="large" />
+		<van-cell  title-width="100rpx" title="进度" value="{{schdule*100}}%" size="large" />
+	</van-cell-group>
+</view>
+
+<view class="pictureCard">
+	<image wx:if="{{book.url}}" src="{{book.url}}"></image>
+</view>
+<van-button class="upBtn" type="primary" block  color="linear-gradient(to right, #4bb0ff, #6149f6)" round="true" size="large" id="bt1" bindtap="navigateToUpdate">修改信息</van-button>
+<van-button class="upBtn" type="primary" block  color="linear-gradient(to right, #4bb0ff, #6149f6)" round="true" size="large" id="bt2" bindtap="delete">删除图书</van-button>
+<!-- <van-button class="upBtn" type="primary" block  color="linear-gradient(to right, #4bb0ff, #6149f6)" round="true" size="large" id="bt3" bindtap="navigateToContinue" data-id="{{book._id}}">继续阅读</van-button> -->
+<!-- <van-button class="upBtn" type="primary" block  color="linear-gradient(to right, #4bb0ff, #6149f6)">上传封面</van-button> -->

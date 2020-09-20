@@ -1,0 +1,116 @@
+/* miniprogram/pages/index/index.wxss */
+
+.reading-everday {
+  width: 100%;
+  height: 300rpx;
+  background: linear-gradient(to right, #4bb0ff, #6149f6);
+  box-shadow: 0 0 5px #38acac; 
+}
+
+.day {
+  font-size: 120rpx;
+  position: relative;
+  left: 70rpx;
+  top: 50rpx;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.momo{
+  position: relative;
+  font-size: 90rpx;
+  color:#ffffff;
+  top: 40rpx;
+  left: 80rpx;
+}
+
+.test{
+  position: relative;
+  font-weight: bold;
+  left: -100rpx;
+  top:120rpx;
+  color:#ffffff;
+}
+
+
+.minute {
+  font-size: 120rpx;
+  position: relative;
+  left: 420rpx;
+  top: -80rpx;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.momo1{
+  position: relative;
+  font-size: 90rpx;
+  color:#ffffff;
+  left: 430rpx;
+  top: -90rpx;
+}
+
+.test2{
+  position: relative;
+  font-weight: bold;
+  color:#ffffff;
+  left: 220rpx;
+  top:-20rpx;
+}
+
+.bookbox {
+  width: 230rpx;
+  height: 450rpx;
+  /* background-color: #f3f3f3; */
+  /* border: 1px solid #000000; */
+  float: left;
+  margin-left: 10rpx;
+  margin-top: 30rpx;
+  text-align: center;
+  
+}
+
+.addbookbox {
+  width: 230rpx;
+  height: 360rpx;
+  background-color: #f3f3f3;
+  /* border: 1px solid #6b6b6b; */
+  float: left;
+  margin-left: 10rpx;
+  margin-top: 30rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  box-shadow: 0 0 3px;
+}
+
+.addbookbox text{
+  position: relative;
+  top: 150rpx;
+}
+
+.bookpic {
+  width: 230rpx;
+  height: 360rpx;
+  /* background-color:#f3f3f3; */
+  /* border:  1px solid #000000; */
+  float: left;
+  /* margin-left: 10rpx; */
+  /* margin-top: 50rpx; */
+  border-radius: 10rpx;
+  box-shadow: 0 0 3px;
+}
+
+.bookcase {
+  margin: 0 auto;
+  width: 750rpx;
+}
+
+.bookname {
+  position: relative;
+  font-size: 32rpx;
+  top: 25rpx;
+}
+
+.none {
+  clear: both;
+}
